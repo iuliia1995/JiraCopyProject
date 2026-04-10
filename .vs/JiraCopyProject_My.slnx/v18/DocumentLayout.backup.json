@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\models\\accountstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\models\\accountstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\jiracopyproject_my.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\jiracopyproject_my.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|d:\\\u043C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u043F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0431\u0434 jiracopyproject\\jiracopyproject_my\\jiracopyproject_my\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0900CA79-DEDB-43C6-BCCF-6008F8B886B4}|JiraCopyProject_My\\JiraCopyProject_My.csproj|solutionrelative:jiracopyproject_my\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Team.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Models\\Team.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Team.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T18:05:47.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Models\\Task.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Task.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:57:32.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Services\\DatabaseService.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwIgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:41:23.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Program.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Program.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Program.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:27:10.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountStat.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\AccountStat.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Models\\AccountStat.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\AccountStat.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Models\\AccountStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T18:12:17.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JiraCopyProject_My",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\JiraCopyProject_My.csproj",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\JiraCopyProject_My.csproj",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\JiraCopyProject_My.csproj",
+              "RelativeToolTip": "JiraCopyProject_My\\JiraCopyProject_My.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-10T17:46:50.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "JiraCopyProject_My\\Models\\Account.cs",
+              "ToolTip": "D:\\\u041C\u043E\u044F \u0440\u0430\u0431\u043E\u0442\u0430 \u0441\u0435\u0439\u0447\u0430\u0441\\\u041F\u0440\u043E\u0435\u043A\u0442 \u0441 \u0411\u0414 JiraCopyProject\\JiraCopyProject_My\\JiraCopyProject_My\\Models\\Account.cs",
+              "RelativeToolTip": "JiraCopyProject_My\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T17:40:26.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
