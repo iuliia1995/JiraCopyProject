@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JiraCopyProject_My")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ed05b77b7b898993d0b072682dadc5a09297a01")]
 [assembly: System.Reflection.AssemblyProductAttribute("JiraCopyProject_My")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JiraCopyProject_My")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

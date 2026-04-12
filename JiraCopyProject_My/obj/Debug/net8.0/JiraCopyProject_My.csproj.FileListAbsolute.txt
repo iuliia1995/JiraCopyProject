@@ -18,3 +18,4 @@ D:\Моя работа сейчас\Проект с БД JiraCopyProject\JiraCop
 D:\Моя работа сейчас\Проект с БД JiraCopyProject\JiraCopyProject_My\JiraCopyProject_My\obj\Debug\net8.0\JiraCopyProject_My.pdb
 D:\Моя работа сейчас\Проект с БД JiraCopyProject\JiraCopyProject_My\JiraCopyProject_My\obj\Debug\net8.0\JiraCopyProject_My.genruntimeconfig.cache
 D:\Моя работа сейчас\Проект с БД JiraCopyProject\JiraCopyProject_My\JiraCopyProject_My\obj\Debug\net8.0\ref\JiraCopyProject_My.dll
+D:\Моя работа сейчас\Проект с БД JiraCopyProject\JiraCopyProject_My\JiraCopyProject_My\obj\Debug\net8.0\JiraCopyProject_My.sourcelink.json

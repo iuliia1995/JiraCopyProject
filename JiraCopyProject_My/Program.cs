@@ -15,8 +15,10 @@ namespace JiraCopyProject_My
                 Console.WriteLine("--- Аналог Jira ---");
                 Console.WriteLine("1) Показать все задачи");
                 Console.WriteLine("2) Добавить новую задачу");
-                Console.WriteLine("3) Выход");
-                Console.Write("Выберите действие - ");
+                Console.WriteLine("3) Показать задачи пользователя");
+                Console.WriteLine("4) Информация об аккаунте");
+                Console.WriteLine("5) Выход");
+                Console.Write("Выберите действие. ");
                 string choice = Console.ReadLine();
 
                 switch (choice)
@@ -28,9 +30,15 @@ namespace JiraCopyProject_My
                         AddNewTask(db);
                         break;
                     case "3":
+                        ShowUserTasks(db);
+                        break;
+                    case "4":
+                        ShowAccountInfo(db);
+                        break;
+                    case "5":
                         return;
                     default:
-                        Console.WriteLine("Неверно, нажмите любую клавишу!");
+                        Console.WriteLine("Неверный ввод, нажмите любую клавишу");
                         Console.ReadKey();
                         break;
                 }
@@ -77,6 +85,69 @@ namespace JiraCopyProject_My
 
             db.AddTask(title, description, statusId, assigneeId, creatorId, dueDate, null);
             Console.WriteLine("Задача успешно создана! Нажмите любую клавишу.");
+            Console.ReadKey();
+        }
+        static void ShowUserTasks(DatabaseService db)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Показать задачи пользователя ---");
+
+            var accounts = db.GetAccounts();
+            Console.WriteLine("\nСписок аккаунтов id, логин, ФИО");
+            foreach (var acc in accounts)
+                Console.WriteLine($"  {acc.Id} - {acc.Login} ({acc.FullName})");
+
+            Console.Write("\nВведите ID пользователя ");
+            if (!int.TryParse(Console.ReadLine(), out int userId))
+            {
+                Console.WriteLine("Неверный ID. Нажмите любую клавишу.");
+                Console.ReadKey();
+                return;
+            }
+
+            var tasks = db.GetTasksByUser(userId);
+            Console.WriteLine($"\nЗадачи пользователя (исполнитель)");
+            if (tasks.Count == 0)
+                Console.WriteLine("  Нет назначенных задач.");
+            else
+                foreach (var task in tasks)
+                    Console.WriteLine($"  #{task.Id}: {task.Title} (статус: {task.StatusId}, срок: {task.DueDate.ToShortDateString()})");
+
+            Console.WriteLine("\nНажмите любую клавишу для возврата в меню.");
+            Console.ReadKey();
+        }
+        static void ShowAccountInfo(DatabaseService db)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Инфа об аккаунте ---");
+
+            var accounts = db.GetAccounts();
+            Console.WriteLine("\nСписок аккаунтов (id, логин, ФИО)");
+            foreach (var acc in accounts)
+                Console.WriteLine($"  {acc.Id} - {acc.Login} ({acc.FullName})");
+
+            Console.Write("\nВведите ID аккаунта - ");
+            if (!int.TryParse(Console.ReadLine(), out int userId))
+            {
+                Console.WriteLine("Неверный ID, нажмите любую клавишу...");
+                Console.ReadKey();
+                return;
+            }
+
+            var account = db.GetAccountById(userId);
+            if (account == null)
+            {
+                Console.WriteLine("Аккаунт не найден.");
+            }
+            else
+            {
+                Console.WriteLine($"\nФИО; {account.FullName}");
+                Console.WriteLine($"Должность: {account.Position ?? "не указана"}");
+                Console.WriteLine($"Email: {account.Email}");
+                Console.WriteLine($"Роль: {account.Role ?? "не указана"}");
+            }
+
+            Console.WriteLine("\nНажмите любую клавишу для возврата в меню.");
             Console.ReadKey();
         }
     }
