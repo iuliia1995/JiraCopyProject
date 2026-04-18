@@ -40,12 +40,10 @@ namespace JiraCopyProject_My.Services
         public List<Models.Task> GetTasks()
         {
             var tasks = new List<Models.Task>();
-
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = "SELECT id, title, description, status_id, create_date, due_date, team_id, assignee_id, creator_id, parent_task_id, created_at, updated_at FROM \"Tasks\"";
-                using (var cmd = new NpgsqlCommand(sql, conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM \"GetTasks\"()", conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
@@ -76,8 +74,7 @@ namespace JiraCopyProject_My.Services
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = "SELECT id, name, description, team_lead_id, created_at FROM \"Teams\"";
-                using (var cmd = new NpgsqlCommand(sql, conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM \"GetTeams\"()", conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
@@ -98,24 +95,11 @@ namespace JiraCopyProject_My.Services
 
         public List<AccountStat> GetAccountStatistics()
         {
-            Console.WriteLine();
             var stats = new List<AccountStat>();
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"
-            SELECT 
-                a.id, 
-                a.fullname, 
-                a.position, 
-                a.role,
-                COALESCE(created.cnt, 0) as tasks_created,
-                COALESCE(assigned.cnt, 0) as tasks_assigned
-            FROM ""Accounts"" a
-            LEFT JOIN (SELECT creator_id, COUNT(*) as cnt FROM ""Tasks"" GROUP BY creator_id) created ON created.creator_id = a.id
-            LEFT JOIN (SELECT assignee_id, COUNT(*) as cnt FROM ""Tasks"" GROUP BY assignee_id) assigned ON assigned.assignee_id = a.id
-            ORDER BY a.id";
-                using (var cmd = new NpgsqlCommand(sql, conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM \"GetAccountStatistics\"()", conn))
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())
@@ -336,10 +320,9 @@ namespace JiraCopyProject_My.Services
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = "SELECT id, title, description, status_id, create_date, due_date, team_id, assignee_id, creator_id, parent_task_id, created_at, updated_at FROM \"Tasks\" WHERE assignee_id = @accountId";
-                using (var cmd = new NpgsqlCommand(sql, conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM \"GetTasksByUser\"(@p_assignee_id)", conn))
                 {
-                    cmd.Parameters.AddWithValue("@accountId", accountId);
+                    cmd.Parameters.AddWithValue("@p_assignee_id", accountId);
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
@@ -370,10 +353,9 @@ namespace JiraCopyProject_My.Services
             using (var conn = new NpgsqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = "SELECT id, login, password_hash, email, fullname, position, role, created_at, is_active FROM \"Accounts\" WHERE id = @id";
-                using (var cmd = new NpgsqlCommand(sql, conn))
+                using (var cmd = new NpgsqlCommand("SELECT * FROM \"GetAccountById\"(@p_id)", conn))
                 {
-                    cmd.Parameters.AddWithValue("@id", accountId);
+                    cmd.Parameters.AddWithValue("@p_id", accountId);
                     using (var reader = cmd.ExecuteReader())
                     {
                         if (reader.Read())
